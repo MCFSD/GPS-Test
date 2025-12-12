@@ -8,7 +8,7 @@ def parse_lat_lon(lat, ns, lon, ew):
     """Convert NMEA lat/lon from ddmm.mmmm format to decimal degrees."""
     try:
         lat_deg = float(lat[:2])
-        lat_min = float(lat[2:])
+        lat_min = float(lat[2:]);
         lon_deg = float(lon[:3])
         lon_min = float(lon[3:])
 
